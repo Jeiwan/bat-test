@@ -8,7 +8,7 @@
 (def ^:private deps
   [['eftest "0.5.9"]
    ['metosin/bat-test +version+]
-   ['cloverage "1.0.13"]
+   ['cloverage "1.2.1"]
    ['org.clojure/tools.namespace "0.3.0-alpha4"]])
 
 (core/deftask bat-test

@@ -4,7 +4,7 @@
   :resource-paths #{"src"}
   :dependencies   '[[org.clojure/clojure "1.10.0" :scope "provided"]
                     [eftest "0.5.9" :scope "test"]
-                    [cloverage "1.1.1" :scope "test"]
+                    [cloverage "1.2.1" :scope "test"]
                     [org.clojure/tools.namespace "0.3.0-alpha4" :scope "test"]])
 
 (task-options!

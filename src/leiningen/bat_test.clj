@@ -11,7 +11,7 @@
 (def profile {:dependencies [['metosin/bat-test +version+]
                              ['eftest "0.5.9"]
                              ['org.clojure/tools.namespace "0.3.0-alpha4"]
-                             ['cloverage "1.0.13"]
+                             ['cloverage "1.2.1"]
                              ['hawk "0.2.11"]]})
 
 (defn quoted-namespace [key s]
